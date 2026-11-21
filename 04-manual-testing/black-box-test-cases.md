@@ -11,7 +11,7 @@ Black-box menguji input dan output/perilaku yang terlihat dari sisi pengguna tan
 | ID | Fitur | Prasyarat | Langkah uji | Expected result | Actual result | Status |
 |---|---|---|---|---|---|---|
 | BB-001 | Halaman utama | Browser terhubung internet | Buka URL utama | Halaman utama Keke Craft tampil tanpa error | Belum dicatat | NOT RUN |
-| BB-002 | Navigasi Product | Halaman utama tampil | Klik menu Product | Browser membuka halaman/tujuan Product | Pengguna mengonfirmasi menu bisa dibuka; detail respons belum dicatat | NOT RUN |
+| BB-002 | Navigasi Product | Halaman utama tampil | Klik menu Product | Browser membuka halaman/tujuan Product | Pengguna melaporkan menu Product terbuka dan halaman dapat dilanjutkan ke detail produk | PASS* |
 | BB-003 | Kategori Tote Bag | Halaman Product/kategori tersedia | Klik kategori Tote Bag | Kategori/produk Tote Bag yang sesuai ditampilkan atau tujuan tautan terbuka | Belum dicatat | NOT RUN |
 | BB-004 | Kategori Hand Bag | Halaman Product/kategori tersedia | Klik kategori Hand Bag | Kategori/produk Hand Bag yang sesuai ditampilkan atau tujuan tautan terbuka | Belum dicatat | NOT RUN |
 | BB-005 | Kategori Laptop Bag | Halaman Product/kategori tersedia | Klik kategori Laptop Bag | Kategori/produk Laptop Bag yang sesuai ditampilkan atau tujuan tautan terbuka | Belum dicatat | NOT RUN |
@@ -22,8 +22,9 @@ Black-box menguji input dan output/perilaku yang terlihat dari sisi pengguna tan
 | BB-010 | Navigasi About Us | Website terbuka | Klik menu About Us | Halaman/bagian informasi perusahaan terbuka | Belum dicatat | NOT RUN |
 | BB-011 | Kontak WhatsApp | Tautan kontak tersedia | Klik tautan WhatsApp; jangan kirim pesan tanpa izin | Tautan membuka tujuan WhatsApp yang sesuai | Belum dicatat | NOT RUN |
 | BB-012 | Tampilan responsif | Browser desktop dan perangkat/mobile viewport | Buka halaman utama dan Product pada dua ukuran layar | Konten tetap terbaca, navigasi dapat digunakan, tidak ada elemen penting terpotong | Belum dicatat | NOT RUN |
+| BB-013 | Membuka detail produk | Halaman Product dan minimal satu produk tersedia | Klik salah satu produk | Halaman detail produk terbuka dan menampilkan informasi produk yang relevan | Pengguna melaporkan halaman detail produk terbuka; URL tujuan tidak dicatat | PASS* |
 
-## Aturan pengisian hasil
+\n*PASS* pada BB-002 dan BB-013 adalah hasil **laporan observasi pengguna**, bukan pengujian independen yang disaksikan peneliti. URL tujuan dan screenshot belum tersedia; lampirkan bukti untuk memperkuat dokumentasi.\n\n## Aturan pengisian hasil
 - Ganti Actual result hanya setelah kasus dijalankan.
 - Status hanya boleh PASS, FAIL, BLOCKED, NOT APPLICABLE, atau NOT RUN.
 - PASS/FAIL harus memiliki bukti screenshot/log.
@@ -34,6 +35,6 @@ Black-box menguji input dan output/perilaku yang terlihat dari sisi pengguna tan
 | ID | Nama file bukti | Catatan |
 |---|---|---|
 | BB-001 | BB-001-homepage.png | Belum dilampirkan |
-| BB-002 | BB-002-product-menu.png | Minta screenshot/URL hasil klik dari pengguna |
-| BB-003–BB-008 | Sesuaikan ID | Belum dilampirkan |
+| BB-002 | BB-002-product-menu.png | Pengguna mengonfirmasi Product terbuka; screenshot/URL belum dilampirkan |
+| BB-003–BB-008 | Sesuaikan ID | Belum dilampirkan |\n| BB-013 | BB-013-detail-produk.png | Pengguna melaporkan detail terbuka; URL belum dicatat dan screenshot belum dilampirkan |
 | BB-009–BB-012 | Sesuaikan ID | Belum dilampirkan |
