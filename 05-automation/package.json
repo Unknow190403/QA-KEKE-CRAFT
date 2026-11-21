@@ -1,0 +1,14 @@
+{
+  "name": "qa-keke-craft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright automation scaffold for authorized Keke Craft website testing",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}
