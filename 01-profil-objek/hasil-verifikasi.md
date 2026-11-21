@@ -18,14 +18,14 @@ Sumber publik: https://www.galerikeke.com/
 | Website dapat diakses | Teramati | Halaman utama berhasil dibaca |
 | Menu Product dapat dibuka | Dikonfirmasi pengguna | Pengguna menyatakan "bisa" |
 | Kategori produk | Teramati di halaman utama | Enam kategori tercantum |
-| Detail produk | Dikonfirmasi pengguna untuk satu produk | Pengguna melaporkan klik produk membuka halaman detail; URL tujuan tidak dicatat dan screenshot belum dilampirkan |
+| Detail produk | Dikonfirmasi pengguna untuk satu produk | Halaman detail terbuka; pengguna melaporkan nama dan gambar produk tersedia. Deskripsi, harga, dan kontak belum diperiksa; URL dan screenshot belum dicatat |
 | Keranjang/checkout/pembayaran | Belum diketahui | Jangan diasumsikan tersedia |
 | Skala bisnis | Belum final | Perlu data pengelola/profil resmi |
 | Jumlah pengunjung | Belum tersedia | Minta data analitik pengelola atau gunakan estimasi pihak ketiga dengan label estimasi |
 | Izin pengujian interaktif | Belum dikonfirmasi | Diperlukan sebelum submit form/transaksi atau pengujian yang mengubah data |
 | Source code untuk white-box | Belum tersedia | White-box hanya dapat dilakukan jika source code diberikan/diizinkan |
 
-## Catatan hasil klik produk (laporan pengguna)\nPengguna menyampaikan bahwa setelah mengeklik produk, **halaman detail produk terbuka**. URL tujuan tidak dicatat. Hasil ini dicatat sebagai observasi yang dilaporkan pengguna; belum ada screenshot atau URL untuk verifikasi independen.\n\n## Kesimpulan sementara
+## Catatan hasil klik produk (laporan pengguna)\nPengguna menyampaikan bahwa setelah mengeklik produk, **halaman detail produk terbuka**. URL tujuan tidak dicatat. Hasil ini dicatat sebagai observasi yang dilaporkan pengguna; belum ada screenshot atau URL untuk verifikasi independen.\n\n## Pemeriksaan isi halaman detail (laporan pengguna)\n- Nama produk: tersedia.\n- Gambar produk: tersedia.\n- Deskripsi produk: belum diperiksa.\n- Harga produk: belum diperiksa.\n- Tombol/tautan kontak atau WhatsApp: belum diperiksa.\n\nHasil ini merupakan laporan observasi pengguna. Bukti screenshot dan URL detail belum dilampirkan.\n\n## Kesimpulan sementara
 Keke Craft layak diteruskan sebagai **kandidat objek penelitian website** karena website publik dapat diakses dan menu Product dilaporkan dapat dibuka. Namun, verifikasi kelayakan seluruh kriteria dosen belum selesai. Status skala usaha, trafik pengunjung, rincian fitur produk, dan izin pengujian masih perlu bukti.
 
 ## Langkah observasi berikutnya
