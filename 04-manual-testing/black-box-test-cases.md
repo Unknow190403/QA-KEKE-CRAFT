@@ -25,13 +25,13 @@ Black-box menguji input dan output/perilaku yang terlihat dari sisi pengguna tan
 | BB-013 | Membuka detail produk | Halaman Product dan minimal satu produk tersedia | Klik salah satu produk | Halaman detail produk terbuka dan menampilkan informasi produk yang relevan | Pengguna melaporkan halaman detail produk terbuka; URL tujuan tidak dicatat | PASS* |
 | BB-014 | Informasi dasar detail produk | Halaman detail produk terbuka | Periksa nama dan gambar produk | Nama dan gambar produk tampil | Pengguna melaporkan nama dan gambar produk tersedia | PASS* |
 | BB-015 | Deskripsi produk | Halaman detail produk terbuka | Periksa bagian deskripsi | Deskripsi produk tampil dan dapat dibaca | Pengguna mengonfirmasi pemeriksaan deskripsi belum dilakukan | NOT RUN |
-| BB-016 | Harga produk | Halaman detail produk terbuka | Periksa informasi harga | Harga ditampilkan dengan jelas atau terdapat keterangan bahwa harga diminta melalui penjual | Pengguna mengonfirmasi pemeriksaan harga belum dilakukan | NOT RUN |
-| BB-017 | Kontak/WhatsApp pada detail produk | Halaman detail produk terbuka | Periksa tombol atau tautan kontak; jangan kirim pesan tanpa izin | Tautan kontak tampil dan mengarah ke tujuan yang sesuai | Pengguna mengonfirmasi pemeriksaan kontak/WhatsApp belum dilakukan | NOT RUN |
+| BB-016 | Harga produk | Halaman detail produk terbuka | Periksa informasi harga | Harga ditampilkan dengan jelas atau terdapat keterangan bahwa harga diminta melalui penjual | Harga tidak tampak pada daftar produk yang diamati; halaman detail per produk belum diverifikasi | NOT RUN |
+| BB-017 | Kontak/WhatsApp pada detail produk | Halaman detail produk terbuka | Periksa tombol atau tautan kontak; jangan kirim pesan tanpa izin | Tautan kontak tampil dan mengarah ke tujuan yang sesuai | Pada daftar produk, tombol Beli Sekarang teramati mengarah ke wa.me/6281386058147 dan cocok dengan nomor kontak pertama di homepage; CTA pada halaman detail individual belum diverifikasi | NOT RUN |
 
 ## Catatan validitas
 - PASS* pada BB-002, BB-013, dan BB-014 adalah laporan observasi pengguna, bukan pengujian independen yang disaksikan peneliti.
 - URL detail produk dan screenshot belum tersedia.
-- Halaman /product/ menampilkan verifikasi otomatis pada pemeriksa publik; hal ini tidak boleh langsung dicatat sebagai bug website.
+- Halaman /product/ berhasil dibaca pada observasi publik 26 November 2026; daftar produk memperlihatkan sebagian nama/dimensi, tetapi tidak menampilkan harga dalam konten yang diperiksa.\n- Tombol Beli Sekarang pada daftar produk mengarah ke wa.me/6281386058147; tujuan WhatsApp tidak dibuka lebih lanjut dan pesan tidak dikirim.\n- Halaman /about-us/ pada pemeriksaan publik menampilkan verifikasi otomatis; ini bukan bukti bahwa halaman rusak.
 - BB-001 tetap NOT RUN karena pembacaan halaman oleh pemeriksa publik belum memenuhi bukti eksekusi browser manual.
 
 ## Aturan pengisian hasil
@@ -52,4 +52,4 @@ Black-box menguji input dan output/perilaku yang terlihat dari sisi pengguna tan
 | BB-014 | BB-014-nama-gambar.png | Nama dan gambar dilaporkan tersedia; screenshot belum dilampirkan |
 | BB-015 | BB-015-deskripsi.png | Belum diperiksa; belum ada bukti |
 | BB-016 | BB-016-harga.png | Belum diperiksa; belum ada bukti |
-| BB-017 | BB-017-kontak-detail.png | Belum diperiksa; belum ada bukti |
+| BB-017 | BB-017-kontak-detail.png | Tautan CTA pada daftar produk telah diamati; screenshot belum dilampirkan; CTA detail individual belum diperiksa |
