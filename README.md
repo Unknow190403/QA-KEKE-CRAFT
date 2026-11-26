@@ -6,9 +6,9 @@ Repository ini berisi dokumentasi proyek akademik analisis kualitas dan pengujia
 - [x] Repository publik dan kerangka dokumentasi dibuat.
 - [x] URL kandidat objek penelitian ditemukan pada dokumen verifikasi: https://www.galerikeke.com/
 - [x] Halaman utama publik dapat dibaca dan menampilkan identitas, kategori produk, kontak, alamat, serta jam operasional.
-- [ ] Izin pengujian interaktif dari pengelola dikonfirmasi.
-- [ ] Detail produk dapat diperiksa dan URL detail dicatat.
-- [ ] Seluruh test case manual dijalankan dengan bukti.
+- [x] Pengguna mengonfirmasi memiliki izin pengujian langsung; cakupan tetap dibatasi pada pengujian fungsional yang aman.
+- [ ] Detail produk satu per satu diperiksa; URL detail spesifik belum dicatat.
+- [ ] Seluruh test case manual dijalankan dengan screenshot/log.
 - [ ] White-box testing dilakukan jika source code tersedia dan diizinkan.
 - [ ] Automated testing dijalankan pada target yang disetujui.
 - [ ] Wawancara QA profesional minimal 3 tahun dilakukan.
@@ -21,7 +21,7 @@ Repository ini berisi dokumentasi proyek akademik analisis kualitas dan pengujia
 - Nama: Keke Craft
 - Website kandidat: https://www.galerikeke.com/
 - Halaman utama menampilkan kategori Tote Bag, Hand Bag, Laptop Bag, Pouch, Women Bag, dan Landyard.
-- Halaman produk /product/ pada pemeriksaan terakhir menampilkan halaman verifikasi otomatis, sehingga isi detail belum dapat diverifikasi melalui pemeriksa publik.
+- Halaman /product/ berhasil dibaca pada observasi publik 26 November 2026. Daftar produk memuat sebagian nama dan dimensi; harga tidak tampak pada konten yang diperiksa. Tombol Beli Sekarang mengarah ke wa.me/6281386058147, sesuai nomor kontak pertama di halaman utama. Pengujian WhatsApp dibatasi pada verifikasi tujuan tautan; tidak ada pesan dikirim.
 
 ## Struktur
 - `01-profil-objek/`: identitas dan kelayakan objek.
@@ -33,7 +33,7 @@ Repository ini berisi dokumentasi proyek akademik analisis kualitas dan pengujia
 - `07-jurnal/`: telaah jurnal dan validasi SINTA.
 - `08-hasil-dan-bukti/`: hasil uji, defect, dan bukti.
 
-## Informasi yang masih dibutuhkan untuk menuntaskan pengujian
+## Catatan progres terbaru\n- Izin pengujian langsung telah dikonfirmasi oleh pengguna.\n- Observasi publik homepage, halaman produk, informasi kontak, dimensi, dan tautan WhatsApp dicatat di [Observasi Publik 26 November 2026](08-hasil-dan-bukti/observasi-publik-2026-11-26.md).\n- Observasi publik bukan bukti screenshot browser manual; test case formal belum dinaikkan menjadi PASS tanpa bukti eksekusi.\n\n## Informasi yang masih dibutuhkan untuk menuntaskan pengujian
 1. Konfirmasi bahwa https://www.galerikeke.com/ adalah target final.
 2. Izin pengelola untuk pengujian fungsional/interaktif sesuai ruang lingkup.
 3. URL detail produk yang sedang diperiksa (atau screenshot halaman detail).
