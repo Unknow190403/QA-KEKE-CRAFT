@@ -17,7 +17,7 @@ Black-box menguji input dan output/perilaku yang terlihat dari sisi pengguna tan
 | BB-005 | Kategori Laptop Bag | Halaman Product/kategori tersedia | Klik kategori Laptop Bag | Kategori/produk Laptop Bag yang sesuai ditampilkan atau tujuan tautan terbuka | Pengguna mengonfirmasi kategori/produk Laptop Bag muncul; screenshot belum dilampirkan | PASS* |
 | BB-006 | Kategori Pouch | Halaman Product/kategori tersedia | Klik kategori Pouch | Kategori/produk Pouch yang sesuai ditampilkan atau tujuan tautan terbuka | Pengguna mengonfirmasi kategori/produk Pouch muncul; screenshot belum dilampirkan | PASS* |
 | BB-007 | Kategori Women Bag | Halaman Product/kategori tersedia | Klik kategori Women Bag | Kategori/produk Women Bag yang sesuai ditampilkan atau tujuan tautan terbuka | Pengguna mengonfirmasi kategori/produk Women Bag muncul; screenshot belum dilampirkan | PASS* |
-| BB-008 | Kategori Landyard | Halaman Product/kategori tersedia | Klik kategori Landyard | Kategori/produk Landyard yang sesuai ditampilkan atau tujuan tautan terbuka | Belum dicatat | NOT RUN |
+| BB-008 | Kategori Landyard | Halaman Product/kategori tersedia | Klik kategori Landyard | Kategori/produk Landyard yang sesuai ditampilkan atau tujuan tautan terbuka | Pengguna mengonfirmasi kategori/produk Landyard muncul; screenshot belum dilampirkan | PASS* |
 | BB-009 | Navigasi Home | Website terbuka | Klik menu Home | Kembali ke halaman utama | Belum dicatat | NOT RUN |
 | BB-010 | Navigasi About Us | Website terbuka | Klik menu About Us | Halaman/bagian informasi perusahaan terbuka | Belum dicatat | NOT RUN |
 | BB-011 | Kontak WhatsApp | Tautan kontak tersedia | Klik tautan WhatsApp; jangan kirim pesan tanpa izin | Tautan membuka tujuan WhatsApp yang sesuai | Belum dicatat | NOT RUN |
