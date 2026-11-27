@@ -13,7 +13,7 @@ Black-box menguji input dan output/perilaku yang terlihat dari sisi pengguna tan
 | BB-001 | Halaman utama | Browser terhubung internet | Buka URL utama | Halaman utama Keke Craft tampil tanpa error | Playwright: homepage merespons di bawah HTTP 400 serta body memuat KEKE CRAFT dan Tentang Kami | PASS (otomatis) |
 | BB-002 | Navigasi Product | Halaman utama tampil | Klik menu Product | Browser membuka halaman/tujuan Product | Pengguna melaporkan menu Product terbuka dan halaman dapat dilanjutkan ke detail produk | PASS* |
 | BB-003 | Kategori Tote Bag | Halaman Product/kategori tersedia | Pilih kategori Tote Bag | Produk Tote Bag yang sesuai ditampilkan | Pengguna mengonfirmasi produk kategori Tote Bag dan gambarnya terlihat; screenshot belum dilampirkan | PASS* |
-| BB-004 | Kategori Hand Bag | Halaman Product/kategori tersedia | Klik kategori Hand Bag | Kategori/produk Hand Bag yang sesuai ditampilkan atau tujuan tautan terbuka | Belum dicatat | NOT RUN |
+| BB-004 | Kategori Hand Bag | Halaman Product/kategori tersedia | Klik kategori Hand Bag | Kategori/produk Hand Bag yang sesuai ditampilkan atau tujuan tautan terbuka | Pengguna mengonfirmasi kategori Hand Bag muncul; screenshot belum dilampirkan | PASS* |
 | BB-005 | Kategori Laptop Bag | Halaman Product/kategori tersedia | Klik kategori Laptop Bag | Kategori/produk Laptop Bag yang sesuai ditampilkan atau tujuan tautan terbuka | Belum dicatat | NOT RUN |
 | BB-006 | Kategori Pouch | Halaman Product/kategori tersedia | Klik kategori Pouch | Kategori/produk Pouch yang sesuai ditampilkan atau tujuan tautan terbuka | Belum dicatat | NOT RUN |
 | BB-007 | Kategori Women Bag | Halaman Product/kategori tersedia | Klik kategori Women Bag | Kategori/produk Women Bag yang sesuai ditampilkan atau tujuan tautan terbuka | Belum dicatat | NOT RUN |
@@ -31,6 +31,7 @@ Black-box menguji input dan output/perilaku yang terlihat dari sisi pengguna tan
 ## Catatan validitas
 - PASS* pada BB-002, BB-003, BB-013, dan BB-014 merupakan laporan/konfirmasi pengguna, belum didukung screenshot.
 - BB-003: pengguna mengonfirmasi produk pada kategori Tote Bag dan gambarnya terlihat. Screenshot belum dilampirkan.
+- BB-004: pengguna mengonfirmasi kategori Hand Bag muncul. Detail visibilitas gambar belum dikonfirmasi dan screenshot belum dilampirkan.
 - Pengujian otomatis Playwright: BB-001, BB-002 (nama kategori pada homepage), BB-012 (homepage pada viewport mobile 390 x 844), dan BB-017 (tautan CTA pada daftar produk). Hasil terperinci ada di `08-hasil-dan-bukti/hasil-otomatis-playwright-2026-11-26.md`.
 - Pemeriksaan otomatis atas teks kategori di homepage bukan pengganti klik dan verifikasi masing-masing kategori.
 - URL detail produk dan screenshot belum tersedia.
