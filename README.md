@@ -24,7 +24,7 @@ Repository ini berisi dokumentasi proyek akademik analisis kualitas dan pengujia
 |  1  | `Ridwan Abdilah`            | `231011400151` |
 |  2  | `Rayhan Numa Shaquille Then`| `231011400156` |
 |  3  | `Saviola Dwi Saputra`       | `231011400200` |
-|  4  | `Zukkifli`                  | `231011401781` |
+|  4  | `Zulkifli`                  | `231011401781` |
 
 ### Informasi Akademik
 
