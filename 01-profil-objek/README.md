@@ -40,8 +40,6 @@ Sumber pendukung identitas usaha yang perlu diverifikasi ulang:
 | 2026-11-26 | https://www.galerikeke.com/product/ | Membuka tautan Info Lengkap Produk melalui pemeriksa publik | Halaman menampilkan verifikasi otomatis; isi katalog/detail tidak dapat dibaca oleh pemeriksa | Catatan pemeriksaan; bukan bukti kegagalan website |
 
 ## Kesimpulan sementara
-Keke Craft dapat dijadikan sebagai kandidat objek penelitian yang relevan untuk diteliti lebih lanjut. Website tersebut dapat menjadi bahan awal untuk mengamati keberadaan usaha, penyajian informasi produk, serta fitur-fitur yang tersedia pada sistem. Namun, penetapan Keke Craft sebagai objek penelitian yang benar-benar layak masih memerlukan proses verifikasi dan pengumpulan data tambahan agar penelitian memiliki dasar yang kuat.
+Keke Craft memiliki potensi untuk dijadikan objek penelitian karena dapat diamati dari segi informasi produk dan fitur website yang tersedia. Namun, kelayakannya masih perlu dipastikan melalui pengumpulan data tambahan, seperti skala usaha, jumlah pengunjung website, serta izin untuk melakukan pengujian.
 
-Selain itu, perlu dilakukan konfirmasi mengenai skala usaha, jumlah pengunjung website, serta karakteristik pengelolaan usaha melalui sumber yang dapat dipertanggungjawabkan. Peneliti juga perlu memperoleh izin dari pihak Keke Craft apabila akan melakukan pengujian secara langsung, termasuk memastikan fitur-fitur website yang dapat dijadikan objek pengujian. Dengan demikian, Keke Craft memiliki potensi untuk dijadikan objek penelitian, tetapi keputusan akhir mengenai kelayakannya harus didasarkan pada bukti dan data yang telah diverifikasi, bukan sekadar pengamatan awal terhadap website.
-
-Jadi, Keke Craft direkomendasikan untuk dilanjutkan ke tahap observasi dan pengumpulan data awal, sebelum ditetapkan secara resmi sebagai objek penelitian.
+Dengan demikian, Keke Craft dapat direkomendasikan sebagai kandidat objek penelitian untuk dilanjutkan ke tahap observasi dan pengumpulan data. Keputusan akhir tetap perlu didasarkan pada data dan bukti yang telah diverifikasi agar hasil penelitian lebih akurat dan dapat dipertanggungjawabkan.
