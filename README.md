@@ -15,6 +15,30 @@ Repository ini berisi dokumentasi proyek akademik analisis kualitas dan pengujia
 - [ ] Artikel jurnal dan akreditasi SINTA diverifikasi.
 - [ ] Laporan akhir dan kesimpulan disusun berdasarkan bukti.
 
+## 📋 Identitas Penyusun
+
+### Anggota Kelompok
+
+| No  | Nama Mahasiswa              | NIM            |
+| :-: | --------------------------- | -------------- |
+|  1  | `Ridwan Abdilah`            | `231011400151` |
+|  2  | `Rayhan Numa Shaquille Then`| `231011400156` |
+|  3  | `Saviola Dwi Saputra`       | `231011400200` |
+|  4  | `Zukkifli`                  | `231011401781` |
+
+### Informasi Akademik
+
+| Keterangan           | Informasi                          |
+| -------------------- | ---------------------------------- |
+| **Kelompok**         | Kelompok 8                         |
+| **Kelas / Ruang**    | V.714                              |
+| **Program Studi**    | Teknik Informatika                 |
+| **Fakultas**         | Ilmu Komputer                      |
+| **Perguruan Tinggi** | Universitas Pamulang               |
+| **Mata Kuliah**      | Testing & QA Perangkat Lunak       |
+| **Dosen Pengampu**   | `ASEP ERLAN MAULANA S.KOM., M.KOM` |
+
+
 > **Kejujuran hasil:** halaman utama yang terlihat oleh pemeriksa publik bukan pengganti bukti eksekusi browser manual. BB-015 (deskripsi), BB-016 (harga), dan BB-017 (kontak/WhatsApp detail) tetap NOT RUN. Jangan mengubah status menjadi PASS/FAIL tanpa pengujian nyata dan bukti.
 
 ## Objek penelitian
